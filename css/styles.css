@@ -896,3 +896,17 @@ button, input {
     transition-duration: 0.01ms !important;
   }
 }
+
+
+/* Navegación por pestañas y carga progresiva de películas */
+.movie-browser { padding-top: 1rem; padding-bottom: 0.5rem; }
+.movie-tabs { display: flex; flex-wrap: wrap; gap: 0.7rem; margin-top: 1rem; }
+.movie-tab { display: inline-flex; align-items: center; gap: 0.7rem; padding: 0.75rem 1.15rem; border: 1px solid var(--color-borde); border-radius: 999px; background: var(--color-superficie); color: var(--color-texto-suave); cursor: pointer; transition: background 180ms ease, color 180ms ease, border-color 180ms ease; }
+.movie-tab span { display: inline-grid; min-width: 1.5rem; min-height: 1.5rem; place-items: center; border-radius: 50%; background: hsl(0, 0%, 100%, 0.07); font-size: 0.75rem; }
+.movie-tab:hover, .movie-tab:focus-visible { border-color: var(--color-verde); color: var(--color-texto); }
+.movie-tab.is-active { border-color: var(--color-verde); background: hsl(145, 75%, 48%, 0.12); color: var(--color-verde-claro); }
+.movie-panel[hidden], .movie-card[hidden] { display: none !important; }
+.load-more-wrap { display: flex; justify-content: center; padding-top: 1.7rem; }
+.load-more { cursor: pointer; }
+.load-more:disabled { opacity: 0.55; cursor: default; }
+@media (prefers-reduced-motion: reduce) { .movie-tab { transition: none; } }
