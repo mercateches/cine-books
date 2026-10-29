@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Descubre películas de acción, comedia y libros de superación personal en Cine & Books.">
+  <title>Cine & Books | Historias que entretienen e inspiran</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar container" aria-label="Navegación principal">
+      <a class="brand" href="#inicio" aria-label="Cine & Books, inicio">
+        <span class="brand-icon" aria-hidden="true">C<span>+</span></span>
+        <span>CINE <b>&</b> BOOKS</span>
+      </a>
+      <input class="menu-toggle" type="checkbox" id="menu-toggle" aria-label="Abrir o cerrar menú">
+      <label class="menu-button" for="menu-toggle" aria-hidden="true"><span></span><span></span><span></span></label>
+      <div class="nav-links">
+        <a href="#accion">Acción</a>
+        <a href="#comedia">Comedia</a>
+        <a href="#libros">Libros</a>
+      </div>
+      <a class="nav-cta" href="#coleccion">Explorar colección <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-glow hero-glow-green" aria-hidden="true"></div>
+      <div class="hero-glow hero-glow-blue" aria-hidden="true"></div>
+      <div class="container hero-content">
+        <p class="eyebrow"><span class="eyebrow-dot"></span> TU PRÓXIMA HISTORIA EMPIEZA AQUÍ</p>
+        <h1>Historias que<br><span>te mueven.</span></h1>
+        <p class="hero-copy">Adrenalina en la pantalla, risas inesperadas y libros que pueden cambiar tu perspectiva. Encuentra tu próxima inspiración.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#coleccion">Explorar colección <span aria-hidden="true">↓</span></a>
+          <a class="button button-ghost" href="#libros">Descubrir libros</a>
+        </div>
+        <div class="hero-stats" aria-label="Contenido de la colección">
+          <div><strong>10</strong><span>Películas</span></div>
+          <div class="stat-divider"></div>
+          <div><strong>08</strong><span>Libros</span></div>
+          <div class="stat-divider"></div>
+          <div><strong>03</strong><span>Categorías</span></div>
+        </div>
+      </div>
+      <div class="hero-side-note" aria-hidden="true">CULTURA · ENTRETENIMIENTO · CRECIMIENTO</div>
+    </section>
+
+    <section class="intro-section container" id="coleccion">
+      <div>
+        <p class="eyebrow">UNA COLECCIÓN PARA CADA MOMENTO</p>
+        <h2>¿Qué te gustaría <span>descubrir?</span></h2>
+      </div>
+      <p class="intro-copy">Desde películas que te mantienen al borde del asiento hasta lecturas que despiertan nuevas ideas. Explora, elige y disfruta.</p>
+    </section>
+
+    <section class="collection-section container" id="accion">
+      <div class="section-heading">
+        <div class="section-title-wrap">
+          <span class="category-icon icon-green" aria-hidden="true">↗</span>
+          <div><p class="eyebrow">01 / ADRENALINA</p><h2>Películas de <span>acción</span></h2></div>
+        </div>
+        <span class="count-label">04 TÍTULOS</span>
+      </div>
+      <div class="card-grid grid-four">
+        <article class="media-card">
+          <div class="poster poster-action poster-matrix"><img src="images/matrix.jpg" alt="Póster de Matrix" loading="lazy"><span class="poster-tag">CIENCIA FICCIÓN</span></div>
+          <div class="card-content"><p class="card-meta">1999 · ACCIÓN</p><h3>Matrix</h3><p>Un hacker descubre que la realidad que conoce es una simulación y debe decidir qué hacer con la verdad.</p></div>
+        </article>
+        <article class="media-card">
+          <div class="poster poster-action poster-madmax"><img src="images/mad-max-fury-road.jpg" alt="Póster de Mad Max: Fury Road" loading="lazy"><span class="poster-tag">POSTAPOCALÍPTICA</span></div>
+          <div class="card-content"><p class="card-meta">2015 · ACCIÓN</p><h3>Mad Max: Fury Road</h3><p>Una persecución vertiginosa a través de un desierto donde sobrevivir es la única regla.</p></div>
+        </article>
+        <article class="media-card">
+          <div class="poster poster-action poster-darkknight"><img src="images/the-dark-knight.jpg" alt="Póster de The Dark Knight" loading="lazy"><span class="poster-tag">SUPERHÉROES</span></div>
+          <div class="card-content"><p class="card-meta">2008 · ACCIÓN</p><h3>The Dark Knight</h3><p>Batman enfrenta a un enemigo que pone a prueba los límites entre el orden y el caos.</p></div>
+        </article>
+        <article class="media-card">
+          <div class="poster poster-action poster-gladiator"><img src="images/gladiator.jpg" alt="Póster de Gladiator" loading="lazy"><span class="poster-tag">ÉPICA</span></div>
+          <div class="card-content"><p class="card-meta">2000 · ACCIÓN</p><h3>Gladiator</h3><p>Un general romano lucha por recuperar su honor en la arena del imperio.</p></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="collection-section container" id="comedia">
+      <div class="section-heading">
+        <div class="section-title-wrap">
+          <span class="category-icon icon-blue" aria-hidden="true">☺</span>
+          <div><p class="eyebrow">02 / BUEN HUMOR</p><h2>Películas de <span class="blue-text">comedia</span></h2></div>
+        </div>
+        <span class="count-label">06 TÍTULOS</span>
+      </div>
+      <div class="card-grid grid-three">
+        <article class="media-card">
+          <div class="poster poster-comedy"><img src="images/the-mask.jpg" alt="Póster de The Mask" loading="lazy"><span class="poster-tag">COMEDIA FANTÁSTICA</span></div>
+          <div class="card-content"><p class="card-meta">1994 · COMEDIA</p><h3>The Mask</h3><p>Un tímido empleado encuentra una máscara que libera su lado más extravagante.</p></div>
+        </article>
+        <article class="media-card">
+          <div class="poster poster-comedy"><img src="images/the-hangover.jpg" alt="Póster de The Hangover" loading="lazy"><span class="poster-tag">COMEDIA DE SITUACIÓN</span></div>
+          <div class="card-content"><p class="card-meta">2009 · COMEDIA</p><h3>The Hangover</h3><p>Una despedida de soltero termina en una mañana llena de misterios y recuerdos perdidos.</p></div>
+        </article>
+        <article class="media-card">
+          <div class="poster poster-comedy"><img src="images/jumanji.jpg" alt="Póster de Jumanji: Welcome to the Jungle" loading="lazy"><span class="poster-tag">AVENTURA</span></div>
+          <div class="card-content"><p class="card-meta">2017 · COMEDIA</p><h3>Jumanji: Welcome to the Jungle</h3><p>Cuatro adolescentes entran en un videojuego y deben superar desafíos para regresar.</p></div>
+        </article>
+        <article class="media-card">
+          <div class="poster poster-comedy"><img src="images/superbad.jpg" alt="Póster de Superbad" loading="lazy"><span class="poster-tag">COMEDIA ADOLESCENTE</span></div>
+          <div class="card-content"><p class="card-meta">2007 · COMEDIA</p><h3>Superbad</h3><p>Dos amigos intentan vivir una noche inolvidable antes de terminar la escuela.</p></div>
+        </article>
+        <article class="media-card">
+          <div class="poster poster-comedy"><img src="images/groundhog-day.jpg" alt="Póster de Groundhog Day" loading="lazy"><span class="poster-tag">FANTASÍA</span></div>
+          <div class="card-content"><p class="card-meta">1993 · COMEDIA</p><h3>Groundhog Day</h3><p>Un meteorólogo queda atrapado repitiendo el mismo día y empieza a ver la vida de otra manera.</p></div>
+        </article>
+        <article class="media-card">
+          <div class="poster poster-comedy"><img src="images/school-of-rock.jpg" alt="Póster de School of Rock" loading="lazy"><span class="poster-tag">MÚSICA</span></div>
+          <div class="card-content"><p class="card-meta">2003 · COMEDIA</p><h3>School of Rock</h3><p>Un músico sin suerte convierte una clase escolar en una banda de rock muy especial.</p></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="books-section" id="libros">
+      <div class="container">
+        <div class="section-heading">
+          <div class="section-title-wrap">
+            <span class="category-icon icon-green" aria-hidden="true">✳</span>
+            <div><p class="eyebrow">03 / CRECIMIENTO PERSONAL</p><h2>Libros para <span>evolucionar</span></h2></div>
+          </div>
+          <span class="count-label">08 LECTURAS</span>
+        </div>
+        <p class="books-intro">Ideas, hábitos y herramientas para conocerte mejor, desarrollar tu potencial y dar el siguiente paso.</p>
+        <div class="book-grid">
+          <article class="book-card"><div class="book-cover cover-one"><span>HÁBITOS</span><strong>Hábitos<br>atómicos</strong><small>JAMES CLEAR</small></div><div class="book-info"><h3>Hábitos atómicos</h3><p>James Clear</p><span class="book-topic">Hábitos y constancia</span></div></article>
+          <article class="book-card"><div class="book-cover cover-two"><span>MENTALIDAD</span><strong>Los 7 hábitos<br>de la gente<br>altamente efectiva</strong><small>STEPHEN R. COVEY</small></div><div class="book-info"><h3>Los 7 hábitos de la gente altamente efectiva</h3><p>Stephen R. Covey</p><span class="book-topic">Efectividad personal</span></div></article>
+          <article class="book-card"><div class="book-cover cover-three"><span>PROPÓSITO</span><strong>El hombre<br>en busca de<br>sentido</strong><small>VIKTOR E. FRANKL</small></div><div class="book-info"><h3>El hombre en busca de sentido</h3><p>Viktor E. Frankl</p><span class="book-topic">Sentido y resiliencia</span></div></article>
+          <article class="book-card"><div class="book-cover cover-four"><span>FINANZAS</span><strong>Padre rico,<br>padre pobre</strong><small>ROBERT T. KIYOSAKI</small></div><div class="book-info"><h3>Padre rico, padre pobre</h3><p>Robert T. Kiyosaki</p><span class="book-topic">Educación financiera</span></div></article>
+          <article class="book-card"><div class="book-cover cover-five"><span>ENFOQUE</span><strong>El poder<br>del ahora</strong><small>ECKHART TOLLE</small></div><div class="book-info"><h3>El poder del ahora</h3><p>Eckhart Tolle</p><span class="book-topic">Atención plena</span></div></article>
+          <article class="book-card"><div class="book-cover cover-six"><span>DECISIONES</span><strong>Cómo ganar<br>amigos e influir<br>sobre las personas</strong><small>DALE CARNEGIE</small></div><div class="book-info"><h3>Cómo ganar amigos e influir sobre las personas</h3><p>Dale Carnegie</p><span class="book-topic">Comunicación</span></div></article>
+          <article class="book-card"><div class="book-cover cover-seven"><span>VALENTÍA</span><strong>Mindset:<br>la actitud<br>del éxito</strong><small>CAROL S. DWECK</small></div><div class="book-info"><h3>Mindset: la actitud del éxito</h3><p>Carol S. Dweck</p><span class="book-topic">Mentalidad de crecimiento</span></div></article>
+          <article class="book-card"><div class="book-cover cover-eight"><span>PROPÓSITO</span><strong>Ikigai</strong><small>HÉCTOR GARCÍA & FRANCESC MIRALLES</small></div><div class="book-info"><h3>Ikigai</h3><p>Héctor García y Francesc Miralles</p><span class="book-topic">Propósito y bienestar</span></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="closing-cta container">
+      <div class="cta-mark" aria-hidden="true">C<span>+</span></div>
+      <div><p class="eyebrow">TU PRÓXIMA RECOMENDACIÓN TE ESPERA</p><h2>Siempre hay una historia<br>que vale la pena descubrir.</h2></div>
+      <a class="button button-primary" href="#inicio">Volver al inicio ↑</a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <a class="brand footer-brand" href="#inicio"><span class="brand-icon" aria-hidden="true">C<span>+</span></span><span>CINE <b>&</b> BOOKS</span></a>
+      <p>Entretenimiento para disfrutar. Lecturas para crecer.</p>
+      <span class="copyright">Proyecto educativo · HTML & CSS</span>
+    </div>
+  </footer>
+</body>
+</html>
